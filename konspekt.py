@@ -5,10 +5,15 @@
 
 # # виклик функції
 # say_hello()
+##
+# def calculate_sum():
 
-# # ще один виклик функції
-# say_hello()
+#     x = 2
+#     y = 3
+    
+#     return x + y
 
+# print(calculate_sum())
 ###
 # def print_max(a, b):
 #     if a > b:
@@ -53,3 +58,18 @@
 #     print('Hello user!')
 
 # hello()  # Hello user!
+
+## Ключові аргументи
+# def calculate_diff(x, y, z):
+#     return x - y -z
+
+# result = calculate_diff(2, z = 5, y = 10)
+# print(result)
+
+## Змінна кількість параметрів (Flexible Number or Argument) прийме за аргумент усе, 
+# що вказати при виклику
+# def calculate_diff(*args):
+#     return args
+# result = calculate_diff(1, 2, 3, 4, 5)
+# print(result)
+

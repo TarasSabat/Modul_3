@@ -12,4 +12,6 @@ def main():
     greet(name)
 
 
-main()
+if __name__ == '__main__':
+    print(f'__name__ == {__name__}')
+    main()

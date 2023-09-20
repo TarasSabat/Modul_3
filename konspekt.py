@@ -78,6 +78,19 @@
 
 # func()
 # print('x як і раніше', x)   # x як і раніше 50
+##
+# def func_outer():
+#     x = 2
+
+#     def func_inner():
+#         nonlocal x
+#         x = 5
+
+#     func_inner()
+#     return x
+
+
+# result = func_outer()  # 5
 '''
 Global
 Щоб присвоїти деяке значення змінній, визначеній на вищому рівні програми 
@@ -96,7 +109,20 @@ Global
 
 # func()
 # print('Значення x складає', x)   # Значення x складає 2
+##
+# a = 5
+# b = 0
 
+
+# def fun():
+#     global a
+#     a = 10
+#     b = 2
+
+
+# fun()
+# print(a)  # 10
+# print(b)  # 0
 '''
 Ключові аргументи
 '''
@@ -211,6 +237,18 @@ None
 # 2 * pover (2, 2)
 #     2 * pover (2, 1)
 #         2 * pover (2, 0)
+'''
+Фібаначі
+'''
+
+
+# def fib(n):
+#     if n in (1, 2):
+#         return 1
+#     return fib(n-1)+fib(n-2)
+
+
+# print(fib(10))
 
 '''
 Імпорт пакетів та модулів

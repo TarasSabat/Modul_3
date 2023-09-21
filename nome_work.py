@@ -181,6 +181,7 @@ Cnk = n! / ((n - k)! · k!)
 Зверніть увагу на те, які великі значення ми отримуємо для факторіала. Рекурсивні висловлювання 
 треба завжди застосовувати з обережністю при обчисленнях, щоб не отримати переповнення пам'яті.
 '''
+## Мій варірнт
 # def factorial(n):
 #     if n <= 1:
 #         return 1
@@ -197,6 +198,20 @@ Cnk = n! / ((n - k)! · k!)
 #     return Cnk
 
 # print(number_of_groups(50, 7))
+## Варівнт 2
+# def factorial(n):
+#     if n < 2:
+#         return 1
+#     else:
+#         return n * factorial(n - 1)
+    
+# def number_of_groups(n, k):
+#     a = factorial(n)  # a = n!
+#     b = factorial(n - k)  # b = (n - k)!
+#     c = factorial(k)  # c = k!
+    
+#     return int(a / (b * c))  # n! / ((n - k)! · k!)
+#     # return int(factorial(n) / (factorial(n - k) * factorial(k)))  # n! / ((n - k)! · k!)
 '''
 Однією з класичних задач на розуміння рекурсії, яку часто задають на співбесідах, 
 особливо початківцям-програмістам — це ряд Фібоначчі.

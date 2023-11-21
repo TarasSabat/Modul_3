@@ -60,16 +60,16 @@
 
 
 # print(sum_numbers(1999))
-# # sum_numbers(10) -> 10 + sum_numbers(9)
-# # sum_numbers(9) -> 9 + sum_numbers(8)
-# # sum_numbers(8) -> 8 + sum_numbers(7)
-# # sum_numbers(7) -> 7 + sum_numbers(6)
-# # sum_numbers(6) -> 6 + sum_numbers(5)
-# # sum_numbers(5) -> 5 + sum_numbers(4)
-# # sum_numbers(4) -> 4 + sum_numbers(3)
-# # sum_numbers(3) -> 3 + sum_numbers(2)
-# # sum_numbers(2) -> 2 + sum_numbers(1)
-# # sum_numbers(1) -> 1
+# sum_numbers(10) -> 10 + sum_numbers(9)
+# sum_numbers(9) -> 9 + sum_numbers(8)
+# sum_numbers(8) -> 8 + sum_numbers(7)
+# sum_numbers(7) -> 7 + sum_numbers(6)
+# sum_numbers(6) -> 6 + sum_numbers(5)
+# sum_numbers(5) -> 5 + sum_numbers(4)
+# sum_numbers(4) -> 4 + sum_numbers(3)
+# sum_numbers(3) -> 3 + sum_numbers(2)
+# sum_numbers(2) -> 2 + sum_numbers(1)
+# sum_numbers(1) -> 1
 
 '''Функція приймає рядок, а повертає словник, де ключ це символ рядка, а значення код ASCII'''
 # {'key': 'value'} # словник
